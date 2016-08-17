@@ -1,4 +1,4 @@
--- 
+--
 
 
 INSERT INTO `configuration` VALUES ('version','2.3');
@@ -24,10 +24,9 @@ INSERT INTO `name_category` VALUES
 --  Change the first column to the user's user id
 
 
-INSERT INTO `privilege` VALUES 
-       ('paul','E','0'),
-       ('john','E','0'),
-       ('mary','E','0');
+INSERT INTO `privilege` VALUES
+       ('lucas.russo','E','0'),
+       ('ximenes.resende','E','0');
 
 
 -- Dump completed on 2013-05-22 17:40:38
