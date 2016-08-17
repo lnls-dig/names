@@ -8,13 +8,14 @@ INSERT INTO `configuration` VALUES ('version','2.3');
 --
 
 
-INSERT INTO `name_category` VALUES 
-        ('device-type','Device-Type','Device-Type',0),
-        ('signal-domain','Signal Domain','Signal Domain',0),
-        ('signal-suffix','Signal Suffix','Signal Suffix',0),
-        ('signal-type','Signal Type','Signal Type',0),
-        ('subsystem','Subsystem','Subsystem',0),
-        ('system','System','System',0);
+INSERT INTO `name_category` VALUES
+        ('Sec','Section','Section',0),
+        ('Sub','Subsection','Subsection',0),
+        ('Dis','Discipline','Discipline',0),
+        ('Dev','Device','Device',0),
+        ('Idx','Index','Index',0),
+        ('Prop','Property','Property',0);
+
 
 
 --
